@@ -1,0 +1,23 @@
+{
+  "name": "lc",
+  "version": "1.0.0",
+  "description": "# 力扣中文 ts/js 答案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyson-Wang/lc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dyson-Wang/lc/issues"
+  },
+  "homepage": "https://github.com/Dyson-Wang/lc#readme",
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
