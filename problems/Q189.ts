@@ -1,5 +1,5 @@
 /**
- Do not return anything, modify nums in-place instead.
+ * 给定一个整数数组 nums，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
  */
 
 function reverse(nums: number[], start: number, end: number): void {
@@ -15,4 +15,4 @@ function rotate(nums: number[], k: number): void {
     reverse(nums, 0, nums.length - 1);
     reverse(nums, 0, tmp - 1);
     reverse(nums, tmp, nums.length - 1);
-};
+}
